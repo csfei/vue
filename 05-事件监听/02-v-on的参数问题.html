@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <button @click="btn1()">按钮1</button>
+  <button @click="btn1">按钮2</button>
+  <button @click="btn3">按钮3</button>
+  <button @click="btn4(123,event)">按钮4</button>
+  <!--情况二   如果需要同时传入某个参数，同时需要event时，  可以通过$event  传入事件-->
+  <button @click="btn5(123,$event)">按钮5</button>
+  <!--若传进的参数  中字符串没加引号的话， 则证明是变量-->
+  <button @click="btn6(abc,$event)">按钮6</button>
+  <button>按钮6</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data:{  //定义数据
+      message: '你好啊，Vue！',
+    },
+    methods:{
+      btn1() {
+        console.log("111");
+      },
+      btn3(event) {
+        console.log(event);
+      },
+      btn5(name,event){
+        console.log("-------------",name, event);
+      },
+      btn4(name,event){
+        console.log("-------------",name, event);
+      },
+      btn6(name,event){
+        console.log("-------------",name, event);
+      }
+    }
+})
+</script>
+</body>
+</html>

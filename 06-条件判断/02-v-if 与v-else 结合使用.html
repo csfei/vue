@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2 v-if="isShow">
+    <div>abc</div>
+    <div>abc</div>
+    <div>abc</div>
+  </h2>
+
+  <h2 v-else>
+    <div>123</div>
+    <div>123</div>
+    <div>123</div>
+    <div>abc</div>
+    <div>abc</div>
+  </h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data:{  //定义数据
+      message: '你好啊，Vue！',
+      isShow: true,
+      notShow:  false
+    }
+  })
+</script>
+</body>
+</html>

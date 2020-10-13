@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <!-- v-bind 语法糖简写成  ：  属性中的传值不可用mustache 语法-->
+  <img :src="imgUrl" alt="">
+  <a :href="ahref">百度一下</a>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //let(变量)   const(常亮)
+    const app = new Vue({   //声明式编程
+        el: '#app',  //用于挂载要管理的元素
+        data:{  //定义数据
+            message: '你好啊，Vue！',
+            imgUrl: 'https://wx1.sinaimg.cn/large/9e5389bbly1gi7bvz3wpij20dw0dwmxx.jpg',
+            ahref:  'www.baidu.com'
+        }
+    })
+</script>
+</body>
+</html>

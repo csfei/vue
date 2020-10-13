@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+<h2>{{fistname +  ' ' + lastname}}</h2>
+<h2>{{fistname}} {{lastname}}</h2>
+<h2>{{getfullname()}}</h2>
+<h2>{{fullname}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data:{  //定义数据
+      message: '你好啊，Vue！',
+      fistname: '布丁',
+      lastname: '崔'
+    },
+    methods: {
+      getfullname() {
+        return this.fistname  + ' '  + this.lastname
+      }
+    },
+    //特定的计算属性的关键字 computed
+    computed: {
+      fullname: function () {
+        return this.fistname  + ' '  + this.lastname
+      }
+    }
+})
+</script>
+</body>
+</html>

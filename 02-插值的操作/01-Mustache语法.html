@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2>{{message}}</h2>
+  mustache 语法也可使用简单的表达式
+  <h2>{{message}} !!!!</h2>
+  <h2>{{firstname + lastname}}</h2>
+  <h2>{{firstname + " " + lastname}}</h2>
+  <h2>{{firstname}} {{lastname}}</h2>
+  <h2>{{counter*2}}</h2>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    //let(变量)   const(常亮)
+    const app = new Vue({   //声明式编程
+        el: '#app',  //用于挂载要管理的元素
+        data:{  //定义数据
+            message: '你好啊，Vue！',
+            firstname: 'kobe',
+            lastname: 'bryant',
+            counter:  200
+        }
+    })
+</script>
+
+</body>
+</html>

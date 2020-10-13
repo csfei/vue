@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <ul>
+<!--    添加key属性是为了高校的更新虚拟dom性能-->
+    <li v-for="item in info" :key="item">{{item}}</li>
+  </ul>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data:{  //定义数据
+      message: '你好啊，Vue！',
+      info: ['a','b','c','d','e','f','g']
+    }
+})
+</script>
+</body>
+</html>

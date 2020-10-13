@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+
+  <script>
+    //1、注意 ： 一旦给const 修饰的标识符被赋值后  ，不能被修改
+    //const name = cuisf;
+    //name= "c";
+
+    //2、注意 在使用const 定义标识符 后必须进行赋值
+    //const  name;
+
+    //注意三、常量的含义是指向的对象不能修改  ，但是可以改变对象内部的属性
+    const  obj ={
+       name : 'cuisf',
+      age : 12,
+      height : 1.33
+    }
+    console.log(obj);
+
+    obj.name = 'cuisffffffff';
+    obj.age = 33;
+
+    console.log(obj);
+
+
+  </script>
+</body>
+</html>

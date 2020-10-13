@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组中的方法不全部是响应式的</title>
+</head>
+<body>
+<div id="app">
+   <ul>
+       <li v-for="item in letters">{{item}}</li>
+   </ul>
+    <button @click="btnClick">按钮</button>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data:{
+            letters:    ['a', 'b', 'c', 'd']
+        },
+        methods:    {
+            btnClick()  {
+                //响应式的方法
+                //1.push 方法  参数可以传多个或单个
+              //  this.letters.push('aaaa','bbbb')
+
+                //2.pop()  //删除数组最后一个元素
+                //this.letters.pop();
+
+                //3.shift()  删除数组中的第一个元素
+                //this.letters.shift();
+
+                //4.unshift()  在数组的最前面添加元素   可以多参数
+                //this.letters.unshift('11', '22', '33')
+
+                //5、splice()   删除/替换/添加
+
+             /*   this.letters.splice(1,1) //删除
+                this.letters.splice(1,1,'bbb')//替换
+                this.letters.splice(1,0,'bbb')//添加*/
+
+              //6.sort() 排序
+                //this.letters.sort();
+
+                //7. reverse 翻转
+                //this.letters.reverse()
+
+
+                //非响应式
+                //8.通过索引值需修改数组的元素
+                //this.letters[0] = '33333'
+            }
+        }
+    })
+</script>
+</body>
+</html>
