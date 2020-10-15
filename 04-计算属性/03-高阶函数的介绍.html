@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //高阶函数  filter map  reduce
+    /**
+     * filter 中的回掉函数  有一个要求：  必须返回一个boolean值
+     * true: 当返回true时 ， 函数内部会自动将这次回掉的函数返回到一个新的数组中
+     * false： 当返回false时， 函数内部将会过滤这次的值
+     * @type {number[]}
+     */
+    const nums = [10,20,222,111,78]
+    //filter 的使用
+    let newNums = nums.filter(function (n) {
+        return n < 100
+    })
+    console.log(newNums);
+    //map 的使用
+    let new2nums = newNums.map(function (n) {
+        return n*2
+    })
+    console.log(new2nums);
+    //reduce的使用  作用是对数组的所有元素进行汇总
+    let totalnum =new2nums.reduce(function (prevalues, n){
+        return prevalues + n
+    },0)
+    console.log(totalnum);
+
+    //总结三个函数
+    let  totalNum2 = nums.filter(function (n) {
+        return n < 100
+    }).map(function (n) {
+        return n * 2
+    }).reduce(function (prevalue,n) {
+       return prevalue + n
+    },0)
+
+    console.log(totalNum2);
+
+    //更加高级的写法  箭头函数
+
+    let  a = nums.filter(n => (n < 100))
+    let  b = nums.filter(n => (n < 100)).map(n => (n * 2))
+    let  c = nums.filter(n => (n < 100)).map(n => (n * 2)).reduce((preValue,n) => (preValue + n))
+    console.log(a);
+    console.log(b);
+    console.log(c);
+</script>
+</body>
+</html>
