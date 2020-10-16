@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-计算属性/03-高阶函数的介绍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model的使用/01-v-model的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model的使用/03-v-model结合radio使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model的使用/04-v-model结合checkbox使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model的使用/05-v-model结合select使用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-书籍购物车案例/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/08-书籍购物车案例/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-v-model的使用" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -46,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\vue_workspace\09-v-model的使用" />
       <recent name="G:\vue_workspace\06-条件判断" />
       <recent name="G:\vue_workspace\js" />
     </key>
@@ -90,7 +93,8 @@
       <workItem from="1602462888893" duration="71000" />
       <workItem from="1602462988296" duration="5299000" />
       <workItem from="1602551851102" duration="6386000" />
-      <workItem from="1602723007521" duration="3317000" />
+      <workItem from="1602723007521" duration="4122000" />
+      <workItem from="1602809199461" duration="3064000" />
     </task>
     <servers />
   </component>
@@ -102,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
