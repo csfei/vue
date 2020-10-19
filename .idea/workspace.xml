@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09-v-model的使用/06-v-model修饰符的基本使用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-组件化/02-全局组件和局部组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化/02-全局组件和局部组件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-组件化/03-父组件与子组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化/03-父组件与子组件.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="csfei-branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gXdr2CkaMOB3NjkbYpRMiQvKKn" />
