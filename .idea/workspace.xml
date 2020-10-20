@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10-组件化/05-组件模块的分离写法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-组件化/02-全局组件和局部组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化/02-全局组件和局部组件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-组件化/03-父组件与子组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/10-组件化/03-父组件与子组件.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="csfei-branch" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-v-model的使用" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-组件化" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -51,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\vue_workspace\10-组件化" />
       <recent name="G:\vue_workspace\09-v-model的使用" />
       <recent name="G:\vue_workspace\06-条件判断" />
       <recent name="G:\vue_workspace\js" />
@@ -98,6 +98,7 @@
       <workItem from="1602551851102" duration="6386000" />
       <workItem from="1602723007521" duration="4122000" />
       <workItem from="1602809199461" duration="4078000" />
+      <workItem from="1603073947150" duration="4000" />
     </task>
     <servers />
   </component>
