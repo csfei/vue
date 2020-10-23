@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--必须用 v-bind:  -->
+    <cpn :cmovies="movies" :cmessage="message" ></cpn>
+</div>
+
+<template id="cpn">
+    <div>
+        <ul>
+            <li v-for="item in cmovies">{{item}}</li>
+        </ul>
+        <h2>{{cmovies}}</h2>
+        <p>{{cmessage}}</p>
+    </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+
+    // 父传子： props
+    const cpn = {
+        template: `#cpn`,
+        //数组
+       // props: ['cmovies','cmessage'],
+
+        //对象
+        props: {
+            //1.类型的限制
+            /*cmovies: Array,
+            cmessage: String,*/
+
+            //2.提供一些默认值和必填限制
+            cmessage: {
+                type: String,
+                default: '我不好', //默认值
+                required: true, //必填
+            },
+            cmovies: {
+                type: Array,
+                default() {
+                    return []
+                }
+            }
+
+
+        },
+        data() {
+            return{}
+        }
+    }
+    //父组件中
+    const app = new Vue({
+        el: '#app',
+        data:{
+            message: '你好啊',
+            movies: ['a','b','c','d']
+
+        },
+        components: {
+            //对象字面量属性增强的写法  cpn: cpn
+            cpn
+        }
+    })
+</script>
+</body>
+</html>

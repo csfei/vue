@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10-组件化/06-组件中的数据存放问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-组件化/07-组件中的data为什么必须是一个函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化/08-组件通信-父组件向子组件传递数据.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,6 +100,7 @@
       <workItem from="1602809199461" duration="4078000" />
       <workItem from="1603073947150" duration="4000" />
       <workItem from="1603240227366" duration="2153000" />
+      <workItem from="1603411918390" duration="3444000" />
     </task>
     <servers />
   </component>
