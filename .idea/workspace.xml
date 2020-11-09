@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10-组件化/11-组件通信-父子逐渐通信案例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> csfei-branch
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +120,13 @@
       <workItem from="1603240227366" duration="2153000" />
       <workItem from="1603411918390" duration="3444000" />
       <workItem from="1603676912509" duration="2777000" />
+      <workItem from="1603788534347" duration="1375000" />
+      <workItem from="1603845300486" duration="2449000" />
+      <workItem from="1604277300234" duration="1186000" />
+      <workItem from="1604641158964" duration="709000" />
+      <workItem from="1604641955243" duration="130000" />
+      <workItem from="1604883750601" duration="6000" />
+      <workItem from="1604887842505" duration="2825000" />
     </task>
     <servers />
   </component>
