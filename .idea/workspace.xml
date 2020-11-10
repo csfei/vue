@@ -5,7 +5,6 @@
     <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="" />
 =======
     <list default="true" id="e068c66a-49e4-4f82-8546-bdf6f56350d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10-组件化/11-组件通信-父子逐渐通信案例.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
 >>>>>>> csfei-branch
@@ -35,6 +34,7 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Gradle Kotlin DSL Build Script" />
       </list>
     </option>
   </component>
