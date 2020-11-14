@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="204afde6-daee-4a83-9370-c831324fda66" name="Default Changelist" comment="" />
+    <list default="true" id="204afde6-daee-4a83-9370-c831324fda66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/m.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Gradle Kotlin DSL Build Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10-组件化" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -48,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\vue_workspace\12-前端模块化\02-ES6的模块化实现" />
       <recent name="G:\vue_workspace\10-组件化" />
       <recent name="G:\vue_workspace\09-v-model的使用" />
       <recent name="G:\vue_workspace\06-条件判断" />
